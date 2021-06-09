@@ -197,7 +197,9 @@ b를 1.34로 추정가능
 
 잘 설정된 simulated annealing은 검증과정과 실제 그래프를 참조할 때 유사한 curvefitting과 유사한 a,b를 추정할 수 있다고 볼 수있다.
 
+
 성능분석:
 
-simulated annealing 보다 정규분포표로 나타내진 그래프를 추정할 수 있지만,
-likelihood등의 보다 유리한 성능의 코드가 존재한다.
+simulated annealing 보다 정규분포표로 나타내진 유사한 그래프를 추정할 수 있다.
+아주 정확한 값의 추정은 어렵다. 랜덤한 지점에서 랜덤하게 나아가기 때문에,
+curvefitting 자체에 효율적이지 못하다.
